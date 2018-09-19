@@ -17,14 +17,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        price.findViewById(R.id.price);
-        amount.findViewById(R.id.amount);
+//        price.findViewById(R.id.txt_price);
 
-        inclVat.findViewById(R.id.incl_vat);
-        exclVat.findViewById(R.id.excl_vat);
-        calcExclVat.findViewById(R.id.cal_excl_vat);
-        calcVat.findViewById(R.id.vat);
-        calcInclVat.findViewById(R.id.cal_incl_vat);
+        price = findViewById(R.id.txt_price);
+        amount = findViewById(R.id.txt_amount);
+
+        inclVat = findViewById(R.id.incl_vat);
+        exclVat = findViewById(R.id.excl_vat);
+        calcExclVat = findViewById(R.id.cal_excl_vat);
+        calcVat = findViewById(R.id.vat);
+        calcInclVat = findViewById(R.id.cal_incl_vat);
     }
 
     public void onClick(View view) {

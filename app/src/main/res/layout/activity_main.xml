@@ -17,11 +17,10 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/price"
+        android:id="@+id/txt_price"
         android:hint="@string/enter_number"
         android:textColorHint="@color/text"
-        android:layout_marginBottom="10dp"
-        android:inputType="number" />
+        android:layout_marginBottom="10dp" />
 
     <TextView
         android:layout_width="match_parent"
@@ -30,11 +29,10 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/amount"
+        android:id="@+id/txt_amount"
         android:hint="@string/enter_number"
         android:textColorHint="@color/text"
-        android:layout_marginBottom="10dp"
-        android:inputType="number" />
+        android:layout_marginBottom="10dp" />
 
     <RadioGroup
         android:layout_width="match_parent"
